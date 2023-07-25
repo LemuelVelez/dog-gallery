@@ -32,6 +32,15 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     align-items: stretch;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    /* justify-content:space-evenly; */
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .gallery img {
@@ -39,4 +48,5 @@ body {
     width: 100%;
     max-width: 350px;
     height: 300px;
+    object-fit: cover;
 }
