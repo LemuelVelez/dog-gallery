@@ -24,29 +24,50 @@ body {
     flex-direction: row;
 } */
 
+/* FLEX-CONTAINER */
 .gallery {
     background-color: springgreen;
     display: flex;
     /* flex-direction: row;
     flex-wrap: wrap; */
     flex-flow: row wrap;
-    justify-content: center;
-    align-items: stretch;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: stretch;
     /* justify-content:space-evenly; */
     justify-content: center;
     align-items: center;
     padding: 20px 10px;
     max-width: 1400px;
     margin: 0 auto;
+
+    gap: 16px;
 }
 
+/* FLEX-ITEMS */
 .gallery img {
     background-color: rgb(227, 181, 97);
     width: 100%;
     max-width: 350px;
     height: 300px;
     object-fit: cover;
+    border-radius: 10px;
+
 }
+
+
+/* .container{
+    height: 100vh;
+    background-color: lightpink;
+     display:flex;
+    align-items:flex-end; 
+} */
+
+/* 
+.one{
+    background-color: green;
+}
+.imageOne{
+    float: left;
+    background-color: blue;
+    clear: both;
+    height: 200px;
+    width: 200px;
+}  */
