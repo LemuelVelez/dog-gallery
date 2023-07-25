@@ -1,14 +1,14 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     font-family: sans-serif;
     background-color: rgb(223, 243, 183);
 }
 
-.header{
+.header {
     text-align: center;
     text-transform: uppercase;
     background-color: rgb(229, 245, 192);
@@ -24,13 +24,17 @@ body{
     flex-direction: row;
 } */
 
-.gallery{
+.gallery {
     background-color: springgreen;
     display: flex;
-    flex-direction: column-reverse;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
 }
 
-.gallery img{
+.gallery img {
     background-color: rgb(227, 181, 97);
     width: 100%;
     max-width: 350px;
